@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href=".//1x/Recurso 1.png">
+    <title>Gimnasio MAB</title>
+</head>
+
+<body>
+    <!--ENCABEZADO ========================= -->
+    <header class="container-fluid bg-warning d-flex justify-content-center">
+        <p class="text-light mb-0">Contactanos 1-(305)-725-1000</p>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <nav class="navbar bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./1x/Recurso 1.png" alt="" width="30" height="24">
+                    </a>
+                </div>
+            </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-20">
+
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./ejercicios.html">Ejercicios</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./ubicacion.html">Ubicacion</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 " type="search" placeholder="Correo Electronico" aria-label="email">
+                    <button class="btn btn-warning btn-warning-outline-success" type="submit">Subscribete</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+        id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Un gimnasio con profesores que llevan a cabo tus objetivos <span
+                class="text-warning">GimnsioMAB<span /></h1>
+        <p class="p-3  fs-4">
+            <span class="text-warning">GimnsioMAB.</span> es el gimnasio con el que vas a cumplir tus objetivos siguiendo paso a paso lo que nuestros profesores y nutricionista te ofrecen, aca vas a poder aprender y cambiar tu estilo de vida, decidimos con nuestros socios invertir en profesionales para que vos te sientas conforme y te vallas con una sonrisa todo los dias.
+        </p>
+    </section>
+
+    <!--========================================================== -->
+    <!-- Sobre nosotros-->
+    <!--========================================================== -->
+
+
+    <section class="w-100">
+        <div class="row w-75 mx-auto" id="servicios-fila-1">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./fotos/2b transformaciones.jpg" alt="desarrollo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Facundo</h3>
+                    <p class="px-4">Su cambio fue realizado en 5 meses</p>
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="./fotos/cad21dd981eae27470c1855b901dc0bb.jpg" alt="concepto" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Agustin</h3>
+                    <p class="px-4">Su cambio realizado en tal solo 1 año de puro esfuerzo y constancia</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                <img src="./fotos/4b transformaciones.jpg" alt="concepto" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Raul</h3>
+                    <p class="px-4">Su cambio fue relizado en 4 meses</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="./fotos/3 trandormaciones.jpg" alt="seo" width="180" height="160">
+
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Agustin</h3>
+                    <p class="px-4">Su cambio fue realizado en tan solo 5 meses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap bg-warning">
+        <p class="fs-5 px-3  pt-3 text-dark">GimnsioMAB. &copy; Todos Los Derechos Reservados 2021</p>
+        <div id="iconos">
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
